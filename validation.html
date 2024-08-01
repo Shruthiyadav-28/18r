@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for ="username">username</label> 
+    <input ="text" name="username" id="username" required pattern="[a-z]+"required pattern="[a-z]+">
+    <br><br>
+    <label for ="password">password</label>
+    <input ="text" name="password" id="password">
+    <br><br>
+    <label for ="E-mail">E-mail</label>
+    <input ="text" name="E-mail" id="E-mail" required pattern="[a-z.\d]+@[a-]+\.[a-z]{2}">       
+    <br><br>
+    <input ="text" name="E-mail" id="E-mail"><br><br>
+
+
+
+
+
+
+
+
+
+
+    <form action= "../response.html"  method="post">
+    <input type="text" 
+    name ="number" 
+    placeholder="number" 
+    required
+    pattern = "\+91[6-9]{0-9}[9,9]">
+    <title ="should follow indian format(+91)and length is should be[+10]" ></title>
+     
+    <input type= "submit">
+
+    </form>
+    <form action= "../response.html"  method="post">
+        <input type="text" 
+        name ="email" 
+        placeholder="email" 
+        required
+        pattern = "[a-z,.\d]+@[a-z]+\.[a-z]{2}">
+         <input type= "submit">
+    
+        </form>
+        <form action= "../response.html"  method="post">
+            <input type="text" 
+            name ="password" 
+            placeholder="password" 
+            required
+            pattern = "(?=.*[a-z])(?=.*[@!#&])(?.*[0-9])">
+             <input type= "submit">
+        
+            </form>
+</body>
+</html>
